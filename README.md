@@ -1,25 +1,24 @@
 # api_yamdb
-# Пример реализации API на базе Django REST Framework
+# Example of API implementation based on Django REST Framework
 
-Позволяет работать с моделями базы:
-- User (Пользователи)
+Allows you to work with database models:
+- User (Users)
 
-# Установка:
-### -настройте виртуальное окружение
+# Installation:
+### -configure the virtual environment
 
-    source venv/bin/activate
+source venv/bin/activate
 
-### -установите необходимые зависимости
+### -install the necessary dependencies
 
-    python3 -m pip install --upgrade pip
-    pip install -r requirements.txt
+python3 -m pip install --upgrade php
+pip install -r requirements.txt
 
-### -разверните базу данных
+### -expand the database
 
-    python3 manage.py makemigrations
-    python3 manage.py migrate
+python 3 manage.py makemigrations
+python3 manage.py migrate
 
-### - запустите проект
+### - launch the project
 
-    python manage.py runserver
-
+python manage.py runserver
